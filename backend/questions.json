@@ -1,0 +1,31 @@
+{
+	"SurveyId":1,
+	"SurveyTitle":"De la Juventud en Guanajuato 2017",
+	"img": "/anydire/image01.jpg",
+	"Questions" : [
+			{
+				"id" : "1",
+				"value" : "Name",
+				"prompt" : "¿Cual es su nombre?",
+				"type" : "O"
+			},
+			{
+				"id" : "2",
+				"value" : "edad",
+				"prompt" : "¿Cual es tu edad?",
+				"type" : "O"
+			},
+			{
+				"id" : "3",
+				"value" : "Ocupacion",
+				"prompt" : "Cual es tu Ocupacion",
+				"type":"M",
+				"Choices" :
+					[
+						{"id":"R1", "desc":"Estudiante", "value":"E"},
+						{"id":"R2", "desc": "Trabajador", "value":"T"},
+						{"id":"R3", "desc": "Trabajo y Estudio", "value": "TE"}
+					]
+			}
+	]
+}
